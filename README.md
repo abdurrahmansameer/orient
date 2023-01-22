@@ -59,5 +59,5 @@ trans-logo.png: The icon for notifications.<br />
 
 ###### CREDITS
 
-[Chart.js](https://www.chartjs.org/)
+[Chart.js](https://www.chartjs.org/)<br />
 [chrome.storage](https://developer.chrome.com/docs/extensions/reference/storage/)
