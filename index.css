@@ -1,0 +1,46 @@
+html, body
+{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    font-family: 'Montserrat';
+}
+.flex{
+    margin-top: 20% ;
+    margin-left: 20%;
+}
+.nav{
+    
+    width:150px;
+    height:150px;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 150px 150px;
+    grid-row: auto auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    vertical-align: middle;
+}
+.grid{
+    display: inline-flex;
+    height: 150px;
+    width: 150px;
+}
+.btn{
+    background-color: #f5b700;
+    color: #0b0a07;
+    border: none;
+    font-size: 25px;
+    height: 130px;
+    width: 130px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 70%;
+}
+.btn{
+    font-size: 10px;
+}
+.btn:hover {
+    background-color: #f5b700;
+}
+

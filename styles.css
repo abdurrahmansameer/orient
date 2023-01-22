@@ -1,0 +1,187 @@
+html, body
+{
+    width: 500px;
+    height: 500px;
+    font-family: 'Montserrat';
+    margin: 10px;
+}
+.tasktype{
+  float:right;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+.type{
+  float: right;
+  display: block;
+  color: #0b0a07;
+  border: none;
+  font-size: 20px;
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 18px;
+  background-color: transparent;
+  margin-right: 25px;
+}
+.type:hover {
+    background-color: #f5b700;
+}
+.type h3 {
+  float: right;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  margin-top: 9px;
+  margin-right: 13px;
+}
+.header {
+  overflow: hidden;
+}
+
+.header .add {
+  float: right;
+  display: block;
+}
+.header input[type=text] {
+  font-size: 20px;
+  border: none;
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 175px;
+  height: 30px;
+}
+.header input[type=datetime-local] {
+  font-size: 20px;
+  border: none;
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 245px;
+  height: 30px;
+}
+.header .add span {
+  float: right;
+  border: none;
+  cursor: pointer;
+}
+.header .add h3 {
+  float: right;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-right: 13px;
+}
+.header h1 {
+  font-size: 20px;
+  display:inline-block;
+  margin: 0px;
+  margin-top: 7px;
+  margin-left: 20px;
+}
+.btn{
+  float: left;
+  display: block;
+  color: #0b0a07;
+  border: none;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 70%;
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: #f5b700;
+}
+.btnadd{
+  float: right;
+  display: block;
+  color: #0b0a07;
+  border: none;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 70%;
+  background-color: transparent;
+  margin-right: 25px;
+}
+.btnadd:hover{
+    background-color: #f5b700;
+  }
+.my-tasks li{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    list-style-type: circle;
+}
+.my-tasks li:hover{
+    cursor: pointer;
+    color: #f5b700;
+    list-style-type: disc;   
+}
+.my-urls li{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+  list-style-type: circle; 
+}
+.my-urls li:hover{
+  cursor: pointer;
+  color: #f5b700;
+  list-style-type: disc;
+}
+.countdown{
+  height: 460px;
+  width: 460px;
+  text-align: center;
+}
+.countdown h3{
+  margin-top: 25%;
+  margin-bottom: 0px;
+  font-size: 40px;
+  display: inline-block;
+  font-weight: 100;
+}
+
+.block h5{
+  display: inline-block;
+  margin: 0px;
+  margin-top: 40%;
+}
+
+.block{
+  display: inline-block;
+  color: #0b0a07;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 0px;
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+  border-radius: 70%;
+  align-items: center;
+  text-align: center;
+  background-color: #f5b700;
+}
+.nxt{
+ float: right;
+ vertical-align: bottom;
+ margin-top: 100px;
+}
+.nxt .btn{
+  float: right;
+}
+.nxt h1{
+  font-size: 20px;
+  margin: 0px;
+  float: right;
+  margin-right: 20px;
+  padding-top: 6px;
+}
